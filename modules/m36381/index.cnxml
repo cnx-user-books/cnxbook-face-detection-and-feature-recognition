@@ -1,0 +1,19 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+
+<title>Motivation and Applications</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m36381</md:content-id>
+  <md:title>Motivation and Applications</md:title>
+  <md:abstract>Motivation and Applications for ELEC301 Viola-Jones-based facial detection and feature recognition project.
+This module is part of a collection.</md:abstract>
+  <md:uuid>502412c0-fc8b-4947-8221-f794793217d1</md:uuid>
+</metadata>
+
+<content>
+  <para id="delete_me">The motivation behind this project is that facial detection has an amplitude of possible applications. From common household objects like digital cameras that automatically focus on human faces to security cameras that actually match a face to a person’s identity.
+Webcams are often used as a security measure for locking a personal computer. The webcam’s facial recognition technology allows for the computer to be accessible to the user only if it recognizes their face.Cameras can also use this technology to track human faces and keep a count of the number of people in a shot or in a certain location or even coming in through an entrance. This technology can be further narrowed down to the recognition and tracking of eyes. This would save power by dimming a screen if viewer is not looking.
+For this project, we hope to use an already existing algorithm as a basis for face detection and build upon it to create improvements and explore more data. 
+  </para>
+</content>
+
+</document>

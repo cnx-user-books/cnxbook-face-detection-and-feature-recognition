@@ -1,0 +1,51 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+
+<title>Results</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m36382</md:content-id>
+  <md:title>Results</md:title>
+  <md:abstract>Results for ELEC301 Viola-Jones-based facial detection and feature recognition project.
+This module is part of a collection.</md:abstract>
+  <md:uuid>99e9f296-5211-45d7-831d-336bbb4c9c98</md:uuid>
+</metadata>
+
+<content>
+  <para id="delete_me">Depending on the parameters we set, the algorithm works well to detect most fully frontal facial portraits in pictures. To detect faces more accurately and not skip actual faces, we decrease the step size of the detector as it runs through the image. While this generally detects more faces that are actually faces, it also increases the calculation time.
+
+The calculation time varies depending on the types of faces in the image, the lighting of the picture, the angles of the faces, the resolution of the image, the surrounding objects, the step sizes, the minimum and maximum scaling of the detector and the number of faces.
+
+<figure id="cute-dog">
+  <media id="dogpic" alt="A dog sitting on a bed">
+    <image mime-type="image/jpeg" src="../../media/result_numbered.jpg"/>
+  </media>
+  <caption>
+     Numbers match face intensity values below.
+  </caption>
+</figure>
+
+<figure id="cutedog">
+  <media id="dogpic2" alt="A dog sitting on a bed2">
+    <image mime-type="image/jpeg" src="../../media/result.jpg"/>
+  </media>
+  <caption>
+     Face intensity. Results match numbered picture above. 
+  </caption>
+</figure>
+
+The algorithm does not work to detect faces that are angled or tilted, as most of the faces it detects are either straight on or only very slightly tilted. Furthermore, it sometimes detects non-faces as faces as well, including objects like clasped hands, certain areas of denim jeans, and other non-face objects.
+
+For the facial color characterization, we decided to use an average of each of the RGB values to characterize the color and shading of each face. This works to determine the general color of each face, however, it also depends on the lighting of the picture and the lighting of each face. This does not give the “true average” of each face either, as it takes features such as mouths, eyes, and noses into account. However, it does give the relative color of each face according the RGB values. People with significantly different face colorings have very different RGB values.
+
+For hair color, using the average of the RGB values works to an extent, but not as well as it does on the face. This is partly due to the fact that we can only get a determinant rectangle around the area where the hair is. As mentioned before, we approximated the location of hair to the top of the head, as this is generally where most people who have hair on their heads will have some hair). We scaled the box according to the size of the face it is associated with, and set the hair rectangle determinant to 0.8 times the height of the face above the facial rectangle. While this gets a fairly accurate general location, it does not work exactly on different faces, as people have different amounts of hair at the top of their heads, different forehead lengths relative to their face sizes, and other varying factors. Thus, the rectangle will usually include some features that are not hair, such as parts of a person’s forehead, the background behind the person’s head, etc. This changes the average of a person’s hair color, giving them a non-exact hair color average. To better detect hair color, we also implemented the mode method, by finding the modes of the RGB values of each rectangle of hair. This would eliminate background “noise”, or objects that are not hair, since in general most of the rectangle contains hair. However, the problem with the mode method is that oftentimes the shading of the hair is very different that the modes found do not accurately represent the hair color. Furthermore, if multiple modes exists, then Matlab will automatically output the smallest valued mode as the actual mode, and the RGB values from this output is not entirely accurate for hair color determination.
+
+<figure id="cutedog2">
+  <media id="dogpic1" alt="A dog sitting on a bed2">
+    <image mime-type="image/jpeg" src="../../media/success-2957.jpg"/>
+  </media>
+  <caption>
+     Side by side comparison of our group's faces and their intensities. 
+  </caption>
+</figure></para>
+</content>
+
+</document>

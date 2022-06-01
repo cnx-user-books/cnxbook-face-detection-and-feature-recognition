@@ -1,0 +1,17 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+
+<title>Introduction &amp; Background</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m36380</md:content-id>
+  <md:title>Introduction &amp; Background</md:title>
+  <md:abstract>Introduction and background for ELEC301 Viola-Jones-based facial detection and feature recognition project.
+This module is part of a collection.</md:abstract>
+  <md:uuid>59c7df3f-815c-4e2b-8303-faaf096ad58c</md:uuid>
+</metadata>
+
+<content>
+  <para id="delete_me">Face detection is a computer technology that determines the locations and sizes of human faces in images. It detects facial features and ignores anything else, such as buildings, trees and bodies. There are many ways to accomplish this. For example, it can be done by color,motion or combination of these. For this project, we are trying to accomplish this in a model-based way using Matlab. Face models usually contain the appearance or shape of faces. They work together as a training base and teach the system how to classify the portions of an image, which in our case is rectangular, at all locations and scales, as either faces or non-faces. Hence it can calculate how many people are there in a specific picture. Since the face base we are using is composed of frontal human faces, it works best for portraits of a group of people. Furthermore after we locate faces, we can tell people’s races by their skin and hair color.
+  </para>
+</content>
+
+</document>

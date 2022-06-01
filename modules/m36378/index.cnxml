@@ -1,0 +1,19 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+
+<title>Futher Improvements &amp; Conclusion</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m36378</md:content-id>
+  <md:title>Futher Improvements &amp; Conclusion</md:title>
+  <md:abstract>Futher improvements and conclusion for ELEC301 Viola-Jones-based facial detection and feature recognition project.
+This module is part of a collection.</md:abstract>
+  <md:uuid>023a974f-d2a9-475d-b297-155afdb301ba</md:uuid>
+</metadata>
+
+<content>
+  <para id="delete_me">Our current program has a difficult time recognising faces that are not completely or mostly facing forward. An improvement to this would be most beneficial since you can’t always guarantee a forward, un-angled portrait. Lighting is also an issue for our program. If a face or even half of a face is darkened by shadow the algorithm might not recognize it due to the lack of difference between the intensities of certain facial features, such as eyes and cheeks.
+Blinking is also an issue for this program. If a person is blinking or squinting the program does not recognize the face because it can not identify its eyes.
+As always, computation time can also be improved.
+Going beyond merely detecting faces and heading into recognition, this technology can be used as added security. By placing a camera at each entrance of a building, you can use facial recognition to identify a person walking in and store this identity to be able to recognize the same person walking out. With this you can calculate the amount of time spent inside the building and can use this to correlate time spent with shifty behavior. </para>
+</content>
+
+</document>

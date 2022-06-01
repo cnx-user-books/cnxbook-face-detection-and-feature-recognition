@@ -1,0 +1,28 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+
+<title>The Team</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m36384</md:content-id>
+  <md:title>The Team</md:title>
+  <md:abstract>Meet the team that worked on the Viola-Jones-based facial detection and feature recognition project.
+This module is part of a collection.</md:abstract>
+  <md:uuid>0c1517af-e97c-4d11-88c2-0ec61e293ba9</md:uuid>
+</metadata>
+
+<content>
+  <para id="delete_me">Subhash Doshi is a junior ECE student at Rice with a 
+focus on signals and systems. Michelle Jin is a junior ECE student at Rice with 
+a focus on computer engineering. Caroline Huang is a junior exchange student 
+from Fudan University, Shanghai, China. Isiana Rendón is a junor ECE student at Rice with a focus on computer engineering. 
+  </para>
+
+<figure id="fs-id1164687762890"><title>The World's Cutest Dog</title><media id="fs-id1164680740953" alt="Our Group">
+    <image mime-type="image/jpeg" src="../../media/success-5a47.jpg"/>
+  </media>
+  
+<caption>Successful face recognition! 
+  </caption></figure>
+
+</content>
+
+</document>

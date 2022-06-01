@@ -1,0 +1,41 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+
+<title>Algorithm</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m36375</md:content-id>
+  <md:title>Algorithm</md:title>
+  <md:abstract>Algorithm used for ELEC301 Viola-Jones-based facial detection and feature recognition project.
+This module is part of a collection.</md:abstract>
+  <md:uuid>98a6ea29-c294-401f-a0fa-c8387f7a4ee5</md:uuid>
+</metadata>
+<featured-links>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit below.
+       Changes to the links section in the source will not be saved. -->
+    <link-group type="example">
+      <link url="http://cnx.org/content/col11250/latest/" strength="3">Collection</link>
+    </link-group>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit above.
+       Changes to the links section in the source will not be saved. -->
+</featured-links>
+<content>
+  <para id="delete_me">In  a standard 19x19 pixel sub-window, there are a lot of possible features, in this case we are only using 500 of them since it would be prohibitively expensive to evaluate them all. Thus, the object detection framework employs a variant of the learning algorithm adaptive boosting to both select the best features and to train classifiers that use them.
+
+<figure id="algorithm">
+  <title>Example</title>
+  <media id="dogpic" alt="A dog sitting on a bed">
+    <image mime-type="image/jpeg" src="../../media/vj1.png"/>
+  </media>
+  <caption>
+    Example features in Viola-Jones
+  </caption>
+</figure>
+
+Viola-Jones closely resembles Haar basis function because it operates by summing the pixel values in rectangular areas of the image and then comparing the difference between the summations in the black and white triangles to the training data.
+
+It allows for possible detection of different sizes of faces by having a rectangular window detector that moves across the picture. The detector is capable of detecting faces, and its size changes with each scan. For the algorithm we use in the project, we can manually adjust the scaling depending on the size of the image. Unlike other facial recognition algorithms, which scale the picture each time and runs it through the detector, Viola-Jones scales the detector, allowing for faster calculation.
+
+The Viola-Jones calculation also contains a training data of faces and non-faces. For the algorithm that we use in this project, we have 2000 faces and 4000 non-faces in the training data.
+</para>
+</content>
+
+</document>

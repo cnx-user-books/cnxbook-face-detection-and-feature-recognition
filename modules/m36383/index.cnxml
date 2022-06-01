@@ -1,0 +1,18 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+
+<title>Starting Direction</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m36383</md:content-id>
+  <md:title>Starting Direction</md:title>
+  <md:abstract>Starting direction for ELEC301 Viola-Jones-based facial detection and feature recognition project.
+This module is part of a collection.</md:abstract>
+  <md:uuid>b0572aea-d31a-4067-9d7a-89333137c6d6</md:uuid>
+</metadata>
+
+<content>
+  <para id="delete_me">
+There are many features that we can use to locate faces in a picture, like movement, color, and shapes. While in real time systems or video clips motion is used more often, color and shape are more useful in portraits. Many different algorithms are developed based on this idea， such as Schneiderman and Kanade, Rowley, Baluja and Kanade. The one we chose as our base is  Viola-Jones, which was motivated primarily by the problem of face detection. Its main benefit comes from its reduced computational requirements so much so that it can be used in real time.  The way it works is as follows. The features employed by the detection framework involve the sums of image pixels within rectangular areas, that is the value of any given feature is always just the sum of the pixels within clear rectangles subtracted from the sum of the pixels within shaded rectangles.
+  </para>
+</content>
+
+</document>

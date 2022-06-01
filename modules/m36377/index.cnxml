@@ -1,0 +1,16 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+
+<title>Difficulties</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m36377</md:content-id>
+  <md:title>Difficulties</md:title>
+  <md:abstract>Difficulties faced in the ELEC301 Viola-Jones-based facial detection and feature recognition project.
+This module is part of a collection.</md:abstract>
+  <md:uuid>e974fa91-30d6-4fc3-a284-ad85fbe5987f</md:uuid>
+</metadata>
+
+<content>
+  <para id="delete_me">Some of the difficulties we face heading in to this project deal mainly with the picture quality. If a person is covered by shadow or if lighting is uneven, the algorithm won’t work properly since it uses differences in light to detect a face. Additionally, if a person’s face is tilted or if part of their face is obstructed by an object detection will not take place. Movement such as turning or blinking is also an issue. </para>
+</content>
+
+</document>
